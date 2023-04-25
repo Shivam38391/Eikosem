@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     
         'rest_framework',
         'mytodoapp.apps.MytodoappConfig',
+        
+        "django_filters"
 ]
 
 MIDDLEWARE = [
