@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-()slme8u4n_1oyc4z8j!k06trr-w%m_5mx-0t_8c+mx0v12i#!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 AUTH_USER_MODEL = "mytodoapp.CustomUser"
